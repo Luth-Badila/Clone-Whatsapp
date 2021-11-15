@@ -338,3 +338,15 @@
             border-radius: 30px;
             font-size: 1em;
         }
+
+        @media(max-width:991px) {
+            .container .rightSide {
+                visibility: hidden;
+                flex: 0%;
+                position: absolute;
+            }
+            .container .leftSide {
+                position: relative;
+                flex: 100%;
+            }
+        }
